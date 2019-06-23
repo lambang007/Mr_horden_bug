@@ -51,15 +51,15 @@ no = set(['no', 'n', 'No', 'N'])
 
 def logo():
     print """
-- Powered by Mr. SAGE 
+- Powered by Mr. Horden 
 """
 bughunterlogo = """\033[0m
-  __________                 ___ ___               __                 
-  \______   \__ __  ____    /   |   \ __ __  _____/  |_  by Mr. SAGE  
-   |    |  _/  |  \/ ___\  /    ~    \  |  \/    \   __\/ __ \_  __ \ 
-   |    |   \  |  / /_/  > \    Y    /  |  /   |  \  | \  ___/|  | \/ 
-   |______  /____/\___  /   \___|_  /|____/|___|  /__|  \___  >__|    
-          \/     /_____/          \/            \/          \/        
+ __  __ ____    _   _               _
+|  \/  |  _ \  | | | | ___  _ __ __| | ___ _ __
+| |\/| | |_) | | |_| |/ _ \| '__/ _` |/ _ \ '_ \
+| |  | |  _ <  |  _  | (_) | | | (_| |  __/ | | |
+|_|  |_|_| \_\ |_| |_|\___/|_|  \__,_|\___|_| |_|
+     \/          \/        
 \033[91m"""
 
 # MENU ########################################################################
@@ -73,7 +73,7 @@ def menu():
    [1] - Information Gathering     [update] - Update The BugHunter 
    [2] - Mapping                    [about] - About The BugHunter  
    [3] - Discovery                 [whoami] - Your IP and Location 
-   [4] - Exploitation                [sage] - Tools by Mr. SAGE    
+   [4] - Exploitation                [sage] - Tools by Mr. Horden    
    [5] - P0Cs & Reporting            [exit] - Exit The BugHunter   
  """)
     choice = raw_input("   bughunter~# ")
@@ -94,7 +94,7 @@ def menu():
         about()
     elif choice == "whoami":
         myinfo()
-    elif choice == "sage":
+    elif choice == "Horden":
         sage()
     elif choice == "exit":
         clearScr(), sys.exit()
@@ -109,7 +109,7 @@ def info():
     clearScr()
     print(bughunterlogo)
     print("""
-    Information Gathering | https://thehackingsage.github.io
+    Information Gathering | https://github.com/lambang007
     ----------------------------------------------------------------
     
      [1] - Basic Commands    [11] - InfoG
@@ -124,7 +124,7 @@ def info():
     [10] - Cloudflare_Enum    [0] - Useful Links   
     """)
     print("   [99] - Return to Main Menu \n")
-    choice1 = raw_input("   bughunter~# ")
+    choice1 = raw_input("   horden~# ")
     if choice1 == "1":
         clearScr()
         basiccmd()
@@ -211,7 +211,7 @@ def mapping():
     [8] - Git-all-Secrets
     """)
     print("   [99] - Return to Main Menu \n")
-    choice2 = raw_input("   bughunter~# ")
+    choice2 = raw_input("   horden~# ")
     if choice2 == "1":
         clearScr()
         nmap()
@@ -324,7 +324,7 @@ def exploit():
     clearScr()
     print(bughunterlogo)
     print("""
-    Exploitation | https://thehackingsage.github.io
+    Exploitation | https://github.com/lambang007
     -------------------------------------------------------------------------------------------
     
     XSS :                   SSTI :                  [22] - Race The Web     [38] - ChangeMe
@@ -345,7 +345,7 @@ def exploit():
     [11] - XXEinjextor      [21] - Second-Order     [37] - Hydra          
     """)
     print("   [99] - Return to Main Menu \n")
-    choice4 = raw_input("   bughunter~# ")
+    choice4 = raw_input("   horden~# ")
     if choice4 == "1":
         clearScr()
         xssradar()
@@ -524,7 +524,7 @@ def reporting():
     [7] - Template Generator
     """)    
     print("   [99] - Return to Main Menu \n")
-    choice5 = raw_input("   bughunter~# ")
+    choice5 = raw_input("   horden~# ")
     if choice5 == "tips":
      clearScr()
      bugtips()
@@ -562,7 +562,7 @@ def sage():
     clearScr()
     print(bughunterlogo)
     print("""
-    Tools by Mr. SAGE | https://thehackingsage.github.io
+    Tools by Mr. SAGE | https://github.com/lambang007
     ----------------------------------------------------------------
     
     [1] - Hacktronian - A Collection of Hacking Tools for Unix
@@ -576,7 +576,7 @@ def sage():
     [9] - TorFi - Anonymous WiFi Hotspot
     """)
     print("   [99] - Return to Main Menu \n")
-    choicesage = raw_input("   bughunter~# ")
+    choicesage = raw_input("   horden~# ")
     if choicesage == "1":
         clearScr()
         hacktronian()
@@ -622,7 +622,7 @@ def updatebughunter():
     print ("""
     Update Bughunter To Latest Version.. Current Version : 1.0
     
-    Check Latest Version Here : https://github.com/thehackingsage/bughunter
+    Check Latest Version Here : https://github.com/lambang007
     """)
     choiceupdate = raw_input(" Press Enter and Go Back To Main Menu : ")
     if choiceupdate == "":
@@ -639,7 +639,7 @@ def about():
     print(bughunterlogo)
     print ("""
 ---------------------------------------------------------------------
-    BugHunter v1.0 by Mr. SAGE. | https://thehackingsage.github.io   
+    BugHunter v1.0 by Mr. Horden. | https://github.com/lambang007  
 ---------------------------------------------------------------------
     Download Directory : 
     
@@ -652,17 +652,11 @@ def about():
     ~/bughunter/disc/ : Tools for Discovery
     ~/bughunter/expt/ : Tools for Exploitation
     ~/bughunter/rept/ : Tools for Reporting
-    ~/bughunter/sage/ : Tools by Mr. SAGE
+    ~/bughunter/Horden/ : Tools by Mr. Horden
 
     Attention : View README.md File for Installation Instruction and How To Use Guide.
 ---------------------------------------------------------------------
-    Follow Me : https://thehackingsage.github.io
- 
-    Blog      :  https://thehacktronian.blogspot.com
-    Github    :  https://github.com/thehackingsage
-    YouTube   :  https://youtube.com/hacktronian
-    Twitter   :  https://twitter.com/thehackingsage
-    Instagram :  https://instagram.com/thehackingsage
+    Follow Me : https://github.com/lambang007
 ---------------------------------------------------------------------
     [!] Thanks for Using This Tool :) 
 ---------------------------------------------------------------------
@@ -696,7 +690,7 @@ def hacktronian():
     print ("""
     A Collection of Hacking Tools for Unix.
     
-    Read More : https://github.com/thehackingsage/hacktronian
+    Read More : https://github.com/lambang007
     """)
     choicehacktronian = raw_input(" Do You Want To Download Hacktronian? (Y/N) : ")
     if choicehacktronian in yes:
