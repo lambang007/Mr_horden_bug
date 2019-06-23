@@ -59,7 +59,7 @@ bughunterlogo = """\033[0m
 | |\/| | |_) | | |_| |/ _ \| '__/ _` |/ _ \ '_ \
 | |  | |  _ <  |  _  | (_) | | | (_| |  __/ | | |
 |_|  |_|_| \_\ |_| |_|\___/|_|  \__,_|\___|_| |_|
-     \/          \/        
+                      
 \033[91m"""
 
 # MENU ########################################################################
@@ -67,7 +67,7 @@ bughunterlogo = """\033[0m
 def menu():
     clearScr()
     print (bughunterlogo + """\033[1m
-  [!] Top Tools for Bug Hunting [!] | https://thehackingsage.github.io
+  [!] Top Tools for Bug Hunting [!] | https://github/lambang007
  -----------------------------------------------------------------------
 \033[0m
    [1] - Information Gathering     [update] - Update The BugHunter 
@@ -76,7 +76,7 @@ def menu():
    [4] - Exploitation                [sage] - Tools by Mr. Horden    
    [5] - P0Cs & Reporting            [exit] - Exit The BugHunter   
  """)
-    choice = raw_input("   bughunter~# ")
+    choice = raw_input("   horden~# ")
     os.system('clear')
     if choice == "update":
         updatebughunter()
@@ -198,7 +198,7 @@ def mapping():
     clearScr()
     print(bughunterlogo)
     print("""
-    Mapping | https://thehackingsage.github.io
+    Mapping | https://github/lambang007
     ----------------------------------------------------------------
     
     [1] - Nmap
@@ -252,7 +252,7 @@ def discovery():
     clearScr()
     print(bughunterlogo)
     print("""
-    Discovery | https://thehackingsage.github.io
+    Discovery | https://github.com/lambang007
     ----------------------------------------------------------------
     
      [1] - Acunetix-WVS           [11] - W3af
@@ -267,7 +267,7 @@ def discovery():
     [10] - Joomscan               [20] - DirSearch
     """)
     print("   [99] - Return to Main Menu \n")
-    choice3 = raw_input("   bughunter~# ")
+    choice3 = raw_input("   horden~# ")
     os.system('clear')
     if choice3 == "1":
         acunetix()
@@ -512,7 +512,7 @@ def reporting():
     clearScr()
     print(bughunterlogo)
     print("""
-    PoCs & Reporting | https://thehackingsage.github.io
+    PoCs & Reporting | https://github.com/lambang007
     ----------------------------------------------------------------
         
     [1] - Bug Bounty Platforms
