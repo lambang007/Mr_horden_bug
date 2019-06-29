@@ -1,5 +1,4 @@
-<p align="center"><img src="https://github.com/thehackingsage/BugHunter/blob/master/logo.png?raw=true" /></p>
-
+<p align="center"><img src=https://thumbs2.imgbox.com/80/22/jkgYACyo_t.png
 ## Bug Hunter Menu :
 
 - Information Gathering
