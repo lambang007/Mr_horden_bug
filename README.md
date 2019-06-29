@@ -161,9 +161,8 @@ TBHM3, GitHub, Bug Bounty Forum, Google and Few Bug Hunting Articles.
 
 ## License :
 
-[MIT Licence](https://github.com/thehackingsage/BugHunter/blob/master/LICENSE)
-
-That's it... If You Like This Repo. Please Share This With Your Friends..
+[MIT Licence](https://https://thumbs2.imgbox.com/80/22/jkgYACyo_t.png
+Your Friends..
 
 & Don't Forget To Follow Me At [Twitter](https://www.twitter.com/thehackingsage), [Instagram](https://www.instagram.com/thehackingsage), [Github](https://www.github.com/thehackingsage) 
 & SUBSCRIBE My [YouTube](https://www.youtube.com/channel/UCYK1n9A4TUq1CvGc6F3DzoA) Channel..!!!
